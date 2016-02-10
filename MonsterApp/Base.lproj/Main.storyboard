@@ -81,7 +81,7 @@
                                     <rect key="frame" x="54" y="112" width="290" height="98"/>
                                 </variation>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="ySq-g2-Inb">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="ySq-g2-Inb" customClass="MonsterImg" customModule="MonsterApp" customModuleProvider="target">
                                 <rect key="frame" x="45" y="204" width="646" height="344"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="646" id="057-aU-3L8"/>
@@ -149,6 +149,9 @@
                         <outlet property="foodImg" destination="G1y-cI-KoT" id="RCV-ae-KuQ"/>
                         <outlet property="heartImg" destination="3cP-fJ-Er9" id="vC3-0b-OC2"/>
                         <outlet property="monsterImg" destination="ySq-g2-Inb" id="yJI-ND-JVe"/>
+                        <outlet property="penaltyOne" destination="naP-QX-3YZ" id="Cjq-o3-OUz"/>
+                        <outlet property="penaltyThree" destination="R1Y-LR-Wsk" id="Pib-hI-d8o"/>
+                        <outlet property="penatlyTwo" destination="7dv-pT-HuM" id="nkg-Dw-7Yz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
